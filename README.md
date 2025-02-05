@@ -1,4 +1,5 @@
-A mod that adds the following two ships
+A mod that adds the following two ships:
+
  (Destroyer) Ol'Domain Class Courior
  (Titan) Calinore Class Expeditionary Survey Vessel
 
