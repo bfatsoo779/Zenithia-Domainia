@@ -1,0 +1,199 @@
+{
+    "hullName": "Calinore Starboard neck",
+    "hullId": "zenithia_calinore_starboard_neck",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "zenethia",
+    "spriteName": "graphics/ships/calinore/zenithia_calinore_starboard_neck.png",
+    "height": 453,
+    "width": 250,
+    "center": [
+        125, 226.5
+    ],
+    "collisionRadius": 264,
+    "coversColor": "160,152,138,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 270.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "zenithia_advanced_central_computing_core",
+        "bdeck",
+        "distributed_fire_control",
+        "zenithia_domain explorium grade hull",
+        "pointdefenseai",
+        "recovery_shuttles",
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                  -141.5,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                   -98.5,        5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 280,
+            "locations": [
+                  -149.5,       45
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 280,
+            "locations": [
+                     1.5,       65
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 280,
+            "locations": [
+                    84.5,       81
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 220,
+            "angle": 320,
+            "locations": [
+                   146.5,       89
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 320,
+            "locations": [
+                   174.5,       97
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                    52.5,       22
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                     3.5,       16
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 280,
+            "locations": [
+                   115.5,      -42
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 280,
+            "locations": [
+                  -152.5,      -56
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   161.5,     27.5,
+                    93.5,     19.5
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     160,       46,
+                      90,       38
+            ]
+        },
+        {
+            "id": "LB 002",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   157.5,       62,
+                      87,       52
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             226,     -102,
+          -224.5,     -125,
+            -205,    -90.5,
+            -205,     61.5,
+             -43,     79.5,
+        
+             -20,    124.5,
+             226,    124.5
+    ]
+}

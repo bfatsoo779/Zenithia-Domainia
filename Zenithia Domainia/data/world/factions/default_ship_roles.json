@@ -1,0 +1,10 @@
+{
+"combatFreighterMedium":{
+		"zenithia_oldomain_old":0.8,
+        "zenithia_oldomain_secure":0.3,
+	},
+"combatFreighterLarge":{
+        "zenithia_calinore_domainia": 0.5,
+        "zenithia_calinore_zenithia": 0.3,
+	},
+}

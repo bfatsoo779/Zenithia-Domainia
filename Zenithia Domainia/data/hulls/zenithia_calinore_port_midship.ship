@@ -1,0 +1,122 @@
+{
+    "hullName": "Calinore Port Midship",
+    "hullId": "zenithia_calinore_port_midship",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "zenethia",
+    "spriteName": "graphics/ships/calinore/zenithia_calinore_port_midship.png",
+    "height": 269,
+    "width": 329,
+    "center": [
+        164.5, 134.5
+    ],
+    "collisionRadius": 210.5,
+    "coversColor": "160,152,138,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 215.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "zenithia_advanced_central_computing_core",
+        "distributed_fire_control",
+        "zenithia_domain explorium grade hull",
+        "ecm",
+        "pointdefenseai"
+    ],
+    "builtInWeapons": {
+        "WS 005": "zenithia_calinore_bar_radar",
+        "WS 006": "zenithia_blinker",
+        "WS 004": "zenithia_blinker"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 60,
+            "locations": [
+                     102,        2
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 75,
+            "locations": [
+                      48,       23
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 45,
+            "locations": [
+                     -22,       28
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 75,
+            "angle": 70,
+            "locations": [
+                     -64,       28
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     -27,      151
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    79.5,    -52.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     113,     31.5
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+           134.5,      1.5,
+             113,       84,
+           -29.5,    153.5,
+            -133,      164,
+           -84.5,    -57.5,
+        
+           130.5,     -163
+    ]
+}

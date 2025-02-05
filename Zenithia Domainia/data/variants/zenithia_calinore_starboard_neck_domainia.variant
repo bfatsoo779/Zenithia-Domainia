@@ -1,0 +1,34 @@
+{
+    "displayName": "Domainia",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore_starboard_neck",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_starboard_neck_domainia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 005": "dualflak",
+                "WS 004": "dualflak",
+                "WS 003": "lightmg",
+                "WS 002": "lightmg",
+                "WS 010": "lightmg",
+                "WS 009": "lightmg",
+                "WS 006": "lightmg",
+                "WS 007": "locust",
+                "WS 008": "locust",
+                "WS 000": "locust",
+                "WS 001": "locust"
+            }
+        }
+    ],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

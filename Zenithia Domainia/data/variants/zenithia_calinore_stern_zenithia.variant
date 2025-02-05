@@ -1,0 +1,34 @@
+{
+    "displayName": "Zenithia",
+    "fluxCapacitors": 0,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore_stern",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_stern_zenithia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "guardian",
+                "WS 003": "guardian",
+                "WS 000": "heavyburst",
+                "WS 004": "heavyburst",
+                "WS 005": "heavyburst",
+                "WS 001": "heavyburst",
+                "WS 012": "lrpdlaser",
+                "WS 013": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

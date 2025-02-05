@@ -1,0 +1,208 @@
+{
+    "hullName": "Calinore Starboard Nacelle",
+    "hullId": "zenithia_calinore_starboard_nacelle",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "zenethia",
+    "spriteName": "graphics/ships/calinore/zenithia_calinore_starboard_nacelle.png",
+    "height": 540,
+    "width": 288,
+    "center": [
+        144, 270
+    ],
+    "collisionRadius": 310,
+    "coversColor": "128,128,128,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 323.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "zenithia_advanced_central_computing_core",
+        "distributed_fire_control",
+        "zenithia_domain explorium grade hull",
+        "pointdefenseai",
+    ],
+    "builtInWeapons": {
+        "WS 011": "zenithia_large_white_blinker",
+        "WS 013": "zenithia_blinker2",
+        "WS 009": "zenithia_blinker2",
+        "WS 010": "zenithia_blinker2",
+        "WS 012": "zenithia_blinker2"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 315,
+            "locations": [
+                    96.5,       90
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 215,
+            "locations": [
+                    10.5,       90
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 270,
+            "locations": [
+                    53.5,       64
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 335,
+            "locations": [
+                   107.5,       49
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 335,
+            "locations": [
+                   125.5,       81
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 270,
+            "locations": [
+                    75.5,       28
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 270,
+            "locations": [
+                    31.5,       28
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 215,
+            "locations": [
+                    -2.5,       49
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 215,
+            "locations": [
+                   -21.5,       82
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     267,      -16
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -215,      -70
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -268,      -91
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      -1,     16.5
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     107,       16
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             266,    -30.5,
+            32.5,      -90,
+               0,   -136.5,
+             -60,     -143,
+          -107.5,      -70,
+        
+          -266.5,    -93.5,
+            -217,      -70,
+            -259,     16.5,
+          -259.5,     82.5,
+          -214.5,      142,
+        
+             248,    123.5,
+           269.5,      140
+    # 12 points total.
+    ]
+}
