@@ -1,0 +1,20 @@
+{
+
+	"zenithia":{
+		"engineColor":[58, 71, 68, 255],
+		"engineCampaignColor":[58, 71, 68, 105],
+		"contrailParticleSizeMult":4,
+		"contrailParticleDuration":1,
+		"contrailParticleFinalSizeMult":3,
+		"contrailMaxSpeedMult":1,
+		"contrailAngularVelocityMult":0f,
+		"contrailColor":[75, 30, 255, 25],
+		"contrailCampaignColor":[75, 30, 82, 225],
+		"glowAlternateColor":[75, 30, 82, 255],
+		"type":"GLOW"
+	},
+	
+
+
+}
+

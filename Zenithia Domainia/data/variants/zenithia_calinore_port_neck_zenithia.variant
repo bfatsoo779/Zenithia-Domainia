@@ -1,0 +1,34 @@
+{
+    "displayName": "Zenithia",
+    "fluxCapacitors": 0,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore_port_neck",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_port_neck_zenithia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "squall",
+                "WS 008": "squall",
+                "WS 001": "squall",
+                "WS 000": "squall",
+                "WS 005": "heavyburst",
+                "WS 004": "heavyburst",
+                "WS 010": "lrpdlaser",
+                "WS 009": "lrpdlaser",
+                "WS 002": "lrpdlaser",
+                "WS 003": "lrpdlaser",
+                "WS 006": "lrpdlaser"
+            }
+        }
+    ],
+    "wings": [
+        "wasp_wing",
+        "wasp_wing",
+        "wasp_wing"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "zenithia_calinore",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": { }
+        }
+    ],
+    "modules": {
+        "WS 050": "zenithia_calinore_port_midship_custom",
+        "WS 051": "zenithia_calinore_starboard_midship_custom",
+        "WS 052": "zenithia_calinore_port_neck_custom",
+        "WS 053": "zenithia_calinore_starboard_neck_custom",
+        "WS 059": "zenithia_calinore_bow_custom",
+        "WS 049": "zenithia_calinore_starboard_nacelle_custom",
+        "WS 048": "zenithia_calinore_port_nacelle_custom",
+        "WS 055": "zenithia_calinore_starboard_stern_custom",
+        "WS 054": "zenithia_calinore_port_stern_custom",
+        "WS 057": "zenithia_calinore_stern_custom"
+    }
+}

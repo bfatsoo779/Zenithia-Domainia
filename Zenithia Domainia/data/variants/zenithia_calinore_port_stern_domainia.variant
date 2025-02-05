@@ -1,0 +1,28 @@
+{
+    "displayName": "Domainia",
+    "fluxCapacitors": 0,
+    "fluxVents": 11,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore_port_stern",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_port_stern_domainia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "lightmg",
+                "WS 001": "lightmg",
+                "WS 003": "lightmg",
+                "WS 002": "sabotpod",
+                "WS 004": "dualflak"
+            }
+        }
+    ],
+    "wings": [
+        "gladius_wing",
+        "gladius_wing",
+        "gladius_wing"
+    ]
+}

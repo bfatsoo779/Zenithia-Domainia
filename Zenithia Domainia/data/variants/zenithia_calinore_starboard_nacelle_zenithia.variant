@@ -1,0 +1,27 @@
+{
+    "displayName": "Zenithia",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore_starboard_nacelle",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_starboard_nacelle_zenithia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "heavyburst",
+                "WS 001": "heavyburst",
+                "WS 002": "guardian",
+                "WS 008": "lrpdlaser",
+                "WS 007": "lrpdlaser",
+                "WS 006": "lrpdlaser",
+                "WS 005": "lrpdlaser",
+                "WS 003": "lrpdlaser",
+                "WS 004": "lrpdlaser"
+            }
+        }
+    ]
+}

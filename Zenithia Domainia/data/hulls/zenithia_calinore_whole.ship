@@ -1,0 +1,2314 @@
+{
+    "hullName": "Calinore",
+    "hullId": "zenithia_calinore_whole",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "zenethia",
+    "spriteName": "graphics/ships/calinore/zenithia_calinore_whole.png",
+    "height": 2012,
+    "width": 1118,
+    "center": [
+        559, 1006
+    ],
+    "collisionRadius": 1076.5,
+    "coversColor": "128,128,128,255",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 1012.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "zenithia_advanced_central_computing_core",
+        "zenithia_advanced_orbital_surveying_suite",
+        "bdeck",
+        "zenithia_cutting_edge_integrated_sensor_gride",
+        "distributed_fire_control",
+        "zenithia_domain explorium grade hull",
+        "ecm",
+        "pointdefenseai",
+        "nav_relay",
+        "operations_center",
+        "recovery_shuttles",
+        "shielded_holds"
+    ],
+    "builtInWeapons": {
+        "WS 166": "sensordish",
+        "WS 164": "sensordish",
+        "WS 165": "sensordish",
+        "WS 167": "sensordish",
+        "WS 162": "zenithia_calinore_bar_radar",
+        "WS 163": "zenithia_calinore_bar_radar",
+        "WS 160": "zenithia_calinore_dual_dish_bar_radar",
+        "WS 161": "zenithia_calinore_dual_dish_bar_radar",
+        "WS 168": "zenithia_calinore_bar_radar",
+        "WS 169": "zenithia_calinore_small_disk_radar",
+        "WS 170": "zenithia_calinore_small_disk_radar",
+        "WS 127": "zenithia_calinore_large_bar_dish_radar",
+        "WS 126": "zenithia_calinore_large_bar_dish_radar",
+        "WS 171": "zenithia_calinore_small_disk_radar",
+        "WS 173": "zenithia_calinore_small_disk_radar",
+        "WS 172": "zenithia_calinore_small_disk_radar",
+        "WS 174": "zenithia_calinore_small_disk_radar",
+        "WS 148": "zenithia_blinker",
+        "WS 158": "zenithia_blinker",
+        "WS 140": "zenithia_blinker",
+        "WS 142": "zenithia_blinker",
+        "WS 150": "zenithia_blinker",
+        "WS 152": "zenithia_blinker",
+        "WS 156": "zenithia_blinker",
+        "WS 154": "zenithia_blinker",
+        "WS 132": "zenithia_blinker",
+        "WS 144": "zenithia_blinker",
+        "WS 146": "zenithia_blinker",
+        "WS 128": "zenithia_blinker",
+        "WS 151": "zenithia_blinker2",
+        "WS 129": "zenithia_blinker2",
+        "WS 141": "zenithia_blinker2",
+        "WS 159": "zenithia_blinker2",
+        "WS 149": "zenithia_blinker2",
+        "WS 147": "zenithia_blinker2",
+        "WS 145": "zenithia_blinker2",
+        "WS 157": "zenithia_blinker2",
+        "WS 155": "zenithia_blinker2",
+        "WS 133": "zenithia_blinker2",
+        "WS 134": "zenithia_blinker",
+        "WS 135": "zenithia_blinker2",
+        "WS 186": "zenithia_blinker2",
+        "WS 184": "zenithia_blinker2",
+        "WS 182": "zenithia_blinker2",
+        "WS 153": "zenithia_blinker2",
+        "WS 180": "zenithia_blinker2",
+        "WS 143": "zenithia_blinker2",
+        "WS 178": "zenithia_blinker2",
+        "WS 131": "zenithia_blinker2",
+        "WS 130": "zenithia_blinker",
+        "WS 175": "zenithia_blinker",
+        "WS 177": "zenithia_blinker",
+        "WS 179": "zenithia_blinker",
+        "WS 181": "zenithia_blinker",
+        "WS 185": "zenithia_blinker",
+        "WS 183": "zenithia_blinker",
+        "WS 176": "zenithia_blinker2",
+        "WS 139": "zenithia_large_white_blinker",
+        "WS 138": "zenithia_large_white_blinker",
+        "WS 136": "zenithia_large_white_blinker",
+        "WS 137": "zenithia_large_white_blinker",
+        "WS 189": "zenithia_blinker",
+        "WS 187": "zenithia_blinker",
+        "WS 193": "zenithia_blinker",
+        "WS 191": "zenithia_blinker",
+        "WS 192": "zenithia_blinker2",
+        "WS 194": "zenithia_blinker2",
+        "WS 188": "zenithia_blinker2",
+        "WS 190": "zenithia_blinker2",
+        "WS 197": "zenithia_large_white_blinker",
+        "WS 195": "zenithia_large_white_blinker",
+        "WS 196": "zenithia_large_white_blinker",
+        "WS 198": "zenithia_large_white_blinker"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": -90,
+            "locations": [
+                    -252,     -350
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 90,
+            "locations": [
+                    -252,      350
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": -45,
+            "locations": [
+                     860,      -91
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 45,
+            "locations": [
+                     860,       91
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "renderOrderMod": 3,
+            "arc": 140,
+            "angle": 240,
+            "locations": [
+                    -886,      -60
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "LARGE",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "renderOrderMod": 3,
+            "arc": 140,
+            "angle": 120,
+            "locations": [
+                    -886,       60
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 45,
+            "locations": [
+                    -209,      324
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 315,
+            "locations": [
+                    -209,     -324
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 145,
+            "locations": [
+                    -295,      324
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 215,
+            "locations": [
+                    -295,     -324
+            ]
+        },
+        {
+            "id": "WS 010",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 60,
+            "locations": [
+                     -91,      260
+            ]
+        },
+        {
+            "id": "WS 011",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 300,
+            "locations": [
+                     -91,     -260
+            ]
+        },
+        {
+            "id": "WS 012",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 25,
+            "locations": [
+                     -58,      227
+            ]
+        },
+        {
+            "id": "WS 013",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 335,
+            "locations": [
+                     -58,     -227
+            ]
+        },
+        {
+            "id": "WS 014",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 75,
+            "locations": [
+                     145,      236
+            ]
+        },
+        {
+            "id": "WS 015",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 285,
+            "locations": [
+                     145,     -236
+            ]
+        },
+        {
+            "id": "WS 016",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 60,
+            "locations": [
+                     199,      215
+            ]
+        },
+        {
+            "id": "WS 017",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 300,
+            "locations": [
+                     199,     -215
+            ]
+        },
+        {
+            "id": "WS 018",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 250,
+            "angle": 90,
+            "locations": [
+                     758,      215
+            ]
+        },
+        {
+            "id": "WS 019",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 250,
+            "angle": 270,
+            "locations": [
+                     758,     -215
+            ]
+        },
+        {
+            "id": "WS 020",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 20,
+            "locations": [
+                     808,      160
+            ]
+        },
+        {
+            "id": "WS 021",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 340,
+            "locations": [
+                     808,     -160
+            ]
+        },
+        {
+            "id": "WS 022",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                     887,       30
+            ]
+        },
+        {
+            "id": "WS 023",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 0,
+            "locations": [
+                     887,      -30
+            ]
+        },
+        {
+            "id": "WS 024",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 80,
+            "locations": [
+                     522,       44
+            ]
+        },
+        {
+            "id": "WS 025",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 280,
+            "locations": [
+                     522,      -44
+            ]
+        },
+        {
+            "id": "WS 026",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 220,
+            "angle": 315,
+            "locations": [
+                     584,      -36
+            ]
+        },
+        {
+            "id": "WS 027",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 220,
+            "angle": 45,
+            "locations": [
+                     584,       36
+            ]
+        },
+        {
+            "id": "WS 028",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                     490,     -103
+            ]
+        },
+        {
+            "id": "WS 029",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 83,
+            "locations": [
+                     490,      103
+            ]
+        },
+        {
+            "id": "WS 030",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                     441,     -109
+            ]
+        },
+        {
+            "id": "WS 031",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 83,
+            "locations": [
+                     441,      109
+            ]
+        },
+        {
+            "id": "WS 032",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                     339,     -120
+            ]
+        },
+        {
+            "id": "WS 033",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 83,
+            "locations": [
+                     339,      120
+            ]
+        },
+        {
+            "id": "WS 034",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 83,
+            "locations": [
+                     296,      125
+            ]
+        },
+        {
+            "id": "WS 035",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 100,
+            "angle": 277,
+            "locations": [
+                     296,     -125
+            ]
+        },
+        {
+            "id": "WS 036",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 45,
+            "locations": [
+                      75,      241
+            ]
+        },
+        {
+            "id": "WS 037",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 315,
+            "locations": [
+                      75,     -241
+            ]
+        },
+        {
+            "id": "WS 038",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 75,
+            "angle": 70,
+            "locations": [
+                      33,      241
+            ]
+        },
+        {
+            "id": "WS 039",
+            "size": "LARGE",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 75,
+            "angle": 290,
+            "locations": [
+                      33,     -241
+            ]
+        },
+        {
+            "id": "WS 040",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 130,
+            "angle": 110,
+            "locations": [
+                    -638,      172
+            ]
+        },
+        {
+            "id": "WS 041",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 130,
+            "angle": 250,
+            "locations": [
+                    -638,     -172
+            ]
+        },
+        {
+            "id": "WS 042",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 110,
+            "locations": [
+                    -843,       87
+            ]
+        },
+        {
+            "id": "WS 043",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 250,
+            "locations": [
+                    -843,      -87
+            ]
+        },
+        {
+            "id": "WS 044",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 150,
+            "locations": [
+                    -929,       33
+            ]
+        },
+        {
+            "id": "WS 045",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 210,
+            "locations": [
+                    -929,      -33
+            ]
+        },
+        {
+            "id": "WS 048",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 85,
+            "locations": [
+                     553,      167
+            ]
+        },
+        {
+            "id": "WS 049",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 275,
+            "locations": [
+                     553,     -167
+            ]
+        },
+        {
+            "id": "WS 058",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 85,
+            "locations": [
+                     285,      181
+            ]
+        },
+        {
+            "id": "WS 059",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 275,
+            "locations": [
+                     285,     -181
+            ]
+        },
+        {
+            "id": "WS 060",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 45,
+            "locations": [
+                     612,       28
+            ]
+        },
+        {
+            "id": "WS 061",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 170,
+            "angle": 315,
+            "locations": [
+                     612,      -28
+            ]
+        },
+        {
+            "id": "WS 062",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 35,
+            "locations": [
+                     894,       75
+            ]
+        },
+        {
+            "id": "WS 063",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 325,
+            "locations": [
+                     894,      -75
+            ]
+        },
+        {
+            "id": "WS 068",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 190,
+            "angle": 60,
+            "locations": [
+                     818,      228
+            ]
+        },
+        {
+            "id": "WS 069",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 190,
+            "angle": 300,
+            "locations": [
+                     818,     -228
+            ]
+        },
+        {
+            "id": "WS 070",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 260,
+            "locations": [
+                     700,     -238
+            ]
+        },
+        {
+            "id": "WS 071",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 100,
+            "locations": [
+                     700,      238
+            ]
+        },
+        {
+            "id": "WS 076",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 80,
+            "locations": [
+                     439,       60
+            ]
+        },
+        {
+            "id": "WS 077",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 280,
+            "locations": [
+                     439,      -60
+            ]
+        },
+        {
+            "id": "WS 082",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 80,
+            "locations": [
+                     288,       80
+            ]
+        },
+        {
+            "id": "WS 083",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 280,
+            "locations": [
+                     288,      -80
+            ]
+        },
+        {
+            "id": "WS 084",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 75,
+            "locations": [
+                      -5,       85
+            ]
+        },
+        {
+            "id": "WS 085",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 285,
+            "locations": [
+                      -5,      -85
+            ]
+        },
+        {
+            "id": "WS 086",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 75,
+            "locations": [
+                     -59,      106
+            ]
+        },
+        {
+            "id": "WS 087",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 285,
+            "locations": [
+                     -59,     -106
+            ]
+        },
+        {
+            "id": "WS 088",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 75,
+            "locations": [
+                    -112,      117
+            ]
+        },
+        {
+            "id": "WS 089",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 285,
+            "locations": [
+                    -112,     -117
+            ]
+        },
+        {
+            "id": "WS 090",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 150,
+            "locations": [
+                    -544,      245
+            ]
+        },
+        {
+            "id": "WS 091",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 150,
+            "angle": 210,
+            "locations": [
+                    -544,     -245
+            ]
+        },
+        {
+            "id": "WS 092",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 150,
+            "locations": [
+                    -550,      215
+            ]
+        },
+        {
+            "id": "WS 093",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 210,
+            "locations": [
+                    -550,     -215
+            ]
+        },
+        {
+            "id": "WS 094",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 25,
+            "locations": [
+                    -180,      333
+            ]
+        },
+        {
+            "id": "WS 095",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 335,
+            "locations": [
+                    -180,     -333
+            ]
+        },
+        {
+            "id": "WS 096",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 25,
+            "locations": [
+                    -198,      365
+            ]
+        },
+        {
+            "id": "WS 097",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 335,
+            "locations": [
+                    -198,     -365
+            ]
+        },
+        {
+            "id": "WS 098",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 90,
+            "locations": [
+                    -230,      386
+            ]
+        },
+        {
+            "id": "WS 099",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 270,
+            "locations": [
+                    -230,     -386
+            ]
+        },
+        {
+            "id": "WS 100",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 90,
+            "locations": [
+                    -274,      386
+            ]
+        },
+        {
+            "id": "WS 101",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 270,
+            "locations": [
+                    -274,     -386
+            ]
+        },
+        {
+            "id": "WS 102",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 145,
+            "locations": [
+                    -308,      365
+            ]
+        },
+        {
+            "id": "WS 103",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 215,
+            "locations": [
+                    -308,     -365
+            ]
+        },
+        {
+            "id": "WS 104",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 145,
+            "locations": [
+                    -327,      332
+            ]
+        },
+        {
+            "id": "WS 105",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 215,
+            "locations": [
+                    -327,     -332
+            ]
+        },
+        {
+            "id": "WS 106",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 100,
+            "locations": [
+                    -391,      264
+            ]
+        },
+        {
+            "id": "WS 107",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 260,
+            "locations": [
+                    -391,     -264
+            ]
+        },
+        {
+            "id": "WS 108",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 100,
+            "locations": [
+                    -451,      254
+            ]
+        },
+        {
+            "id": "WS 109",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 260,
+            "locations": [
+                    -451,     -254
+            ]
+        },
+        {
+            "id": "WS 110",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 100,
+            "locations": [
+                    -499,      245
+            ]
+        },
+        {
+            "id": "WS 111",
+            "size": "SMALL",
+            "type": "UNIVERSAL",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 260,
+            "locations": [
+                    -499,     -245
+            ]
+        },
+        {
+            "id": "WS 112",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 100,
+            "locations": [
+                    -585,       92
+            ]
+        },
+        {
+            "id": "WS 113",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 260,
+            "locations": [
+                    -585,      -92
+            ]
+        },
+        {
+            "id": "WS 122",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 100,
+            "locations": [
+                    -768,       53
+            ]
+        },
+        {
+            "id": "WS 123",
+            "size": "SMALL",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 260,
+            "locations": [
+                    -768,      -53
+            ]
+        },
+        {
+            "id": "WS 124",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 100,
+            "locations": [
+                    -678,       69
+            ]
+        },
+        {
+            "id": "WS 125",
+            "size": "MEDIUM",
+            "type": "HYBRID",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 260,
+            "locations": [
+                    -678,      -69
+            ]
+        },
+        {
+            "id": "WS 126",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    -374,   -141.5
+            ]
+        },
+        {
+            "id": "WS 127",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    -374,    141.5
+            ]
+        },
+        {
+            "id": "WS 128",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -520.5,    482.5
+            ]
+        },
+        {
+            "id": "WS 129",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -520.5,   -482.5
+            ]
+        },
+        {
+            "id": "WS 130",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   704.5,    256.5
+            ]
+        },
+        {
+            "id": "WS 131",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   704.5,   -256.5
+            ]
+        },
+        {
+            "id": "WS 132",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   905.5,     80.5
+            ]
+        },
+        {
+            "id": "WS 133",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   905.5,    -80.5
+            ]
+        },
+        {
+            "id": "WS 134",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                 -1003.5,     31.5
+            ]
+        },
+        {
+            "id": "WS 135",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                 -1003.5,    -31.5
+            ]
+        },
+        {
+            "id": "WS 136",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -989.5,     90.5
+            ]
+        },
+        {
+            "id": "WS 137",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -989.5,    -90.5
+            ]
+        },
+        {
+            "id": "WS 138",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    1005,    101.5
+            ]
+        },
+        {
+            "id": "WS 139",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    1005,   -101.5
+            ]
+        },
+        {
+            "id": "WS 140",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -200.5,    395.5
+            ]
+        },
+        {
+            "id": "WS 141",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -200.5,   -395.5
+            ]
+        },
+        {
+            "id": "WS 142",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -305.5,    395.5
+            ]
+        },
+        {
+            "id": "WS 143",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -305.5,   -395.5
+            ]
+        },
+        {
+            "id": "WS 144",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    69.5,    363.5
+            ]
+        },
+        {
+            "id": "WS 145",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    69.5,   -363.5
+            ]
+        },
+        {
+            "id": "WS 146",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -39.5,    428.5
+            ]
+        },
+        {
+            "id": "WS 147",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -39.5,   -428.5
+            ]
+        },
+        {
+            "id": "WS 148",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -59.5,    288.5
+            ]
+        },
+        {
+            "id": "WS 149",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   -59.5,   -288.5
+            ]
+        },
+        {
+            "id": "WS 150",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -357.5,    290.5
+            ]
+        },
+        {
+            "id": "WS 151",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -357.5,   -290.5
+            ]
+        },
+        {
+            "id": "WS 152",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -520.5,    267.5
+            ]
+        },
+        {
+            "id": "WS 153",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -520.5,   -267.5
+            ]
+        },
+        {
+            "id": "WS 154",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   336.5,     31.5
+            ]
+        },
+        {
+            "id": "WS 155",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   336.5,    -31.5
+            ]
+        },
+        {
+            "id": "WS 156",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   121.5,    104.5
+            ]
+        },
+        {
+            "id": "WS 157",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   121.5,   -104.5
+            ]
+        },
+        {
+            "id": "WS 158",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -148.5,    289.5
+            ]
+        },
+        {
+            "id": "WS 159",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -148.5,   -289.5
+            ]
+        },
+        {
+            "id": "WS 160",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -543.5,     81.5
+            ]
+        },
+        {
+            "id": "WS 161",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -543.5,    -81.5
+            ]
+        },
+        {
+            "id": "WS 162",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     177,      160
+            ]
+        },
+        {
+            "id": "WS 163",
+            "size": "LARGE",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                     177,     -160
+            ]
+        },
+        {
+            "id": "WS 164",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 135,
+            "locations": [
+                  -366.5,    301.5
+            ]
+        },
+        {
+            "id": "WS 165",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 225,
+            "locations": [
+                  -366.5,   -301.5
+            ]
+        },
+        {
+            "id": "WS 166",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 45,
+            "locations": [
+                  -138.5,      301
+            ]
+        },
+        {
+            "id": "WS 167",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 315,
+            "locations": [
+                  -138.5,     -301
+            ]
+        },
+        {
+            "id": "WS 168",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -111.5,        0
+            ]
+        },
+        {
+            "id": "WS 169",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    -120,       45
+            ]
+        },
+        {
+            "id": "WS 170",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                    -120,      -45
+            ]
+        },
+        {
+            "id": "WS 171",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -200.5,       30
+            ]
+        },
+        {
+            "id": "WS 172",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -200.5,      -30
+            ]
+        },
+        {
+            "id": "WS 173",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -197.5,       45
+            ]
+        },
+        {
+            "id": "WS 174",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 360,
+            "angle": 0,
+            "locations": [
+                  -197.5,      -45
+            ]
+        },
+        {
+            "id": "WS 175",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   822.5,    245.5
+            ]
+        },
+        {
+            "id": "WS 176",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   822.5,   -245.5
+            ]
+        },
+        {
+            "id": "WS 177",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   205.5,    246.5
+            ]
+        },
+        {
+            "id": "WS 178",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   205.5,   -246.5
+            ]
+        },
+        {
+            "id": "WS 179",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -573.5,    107.5
+            ]
+        },
+        {
+            "id": "WS 180",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -573.5,   -107.5
+            ]
+        },
+        {
+            "id": "WS 181",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -875.5,     20.5
+            ]
+        },
+        {
+            "id": "WS 182",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -875.5,    -20.5
+            ]
+        },
+        {
+            "id": "WS 183",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -660.5,    181.5
+            ]
+        },
+        {
+            "id": "WS 184",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -660.5,   -181.5
+            ]
+        },
+        {
+            "id": "WS 185",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -768.5,    148.5
+            ]
+        },
+        {
+            "id": "WS 186",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -768.5,   -148.5
+            ]
+        },
+        {
+            "id": "WS 187",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -176,       91
+            ]
+        },
+        {
+            "id": "WS 188",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -176,      -91
+            ]
+        },
+        {
+            "id": "WS 189",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -206,       91
+            ]
+        },
+        {
+            "id": "WS 190",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -206,      -91
+            ]
+        },
+        {
+            "id": "WS 191",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -110,       77
+            ]
+        },
+        {
+            "id": "WS 192",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -110,      -77
+            ]
+        },
+        {
+            "id": "WS 193",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -128.5,     77.5
+            ]
+        },
+        {
+            "id": "WS 194",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -128.5,    -77.5
+            ]
+        },
+        {
+            "id": "WS 195",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   653.5,   -266.5
+            ]
+        },
+        {
+            "id": "WS 196",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   653.5,    266.5
+            ]
+        },
+        {
+            "id": "WS 197",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -574.5,   -505.5
+            ]
+        },
+        {
+            "id": "WS 198",
+            "size": "SMALL",
+            "type": "DECORATIVE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -574.5,    505.5
+            ]
+        },
+        {
+            "id": "LB 000",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     599,     96.5,
+                   531.5,    104.5
+            ]
+        },
+        {
+            "id": "LB 001",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   595.5,     70.5,
+                   529.5,       80
+            ]
+        },
+        {
+            "id": "LB 002",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   597.5,      -69,
+                   529.5,      -75
+            ]
+        },
+        {
+            "id": "LB 003",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                   600.5,      -96,
+                   532.5,     -101
+            ]
+        },
+        {
+            "id": "LB 004",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -596.5,    142.5,
+                  -661.5,      130
+            ]
+        },
+        {
+            "id": "LB 005",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -592,      117,
+                    -657,      103
+            ]
+        },
+        {
+            "id": "LB 006",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -590.5,   -120.5,
+                    -657,   -104.5
+            ]
+        },
+        {
+            "id": "LB 007",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -596,   -145.5,
+                    -660,     -132
+            ]
+        },
+        {
+            "id": "LB 008",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -723.5,    115.5,
+                  -787.5,      101
+            ]
+        },
+        {
+            "id": "LB 009",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -720,       92,
+                  -783.5,     78.5
+            ]
+        },
+        {
+            "id": "LB 010",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                  -718.5,      -96,
+                  -781.5,      -82
+            ]
+        },
+        {
+            "id": "LB 011",
+            "size": "SMALL",
+            "type": "LAUNCH_BAY",
+            "mount": "HIDDEN",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -722,   -121.5,
+                  -787.5,     -105
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -564, 365.5
+            ],
+            "length": 500,
+            "width": 200,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -564, -365.5
+            ],
+            "length": 500,
+            "width": 200,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -619, 231
+            ],
+            "length": 150,
+            "width": 40,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -619, -231
+            ],
+            "length": 150,
+            "width": 40,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -608.5, 205
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -608.5, -205
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -608, 257
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        },
+        {
+            "location": [
+                -608, -257
+            ],
+            "length": 100,
+            "width": 20,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "zenithia"
+        }
+    ],
+    "bounds": [
+         -1005.5,    -33.5,
+            -924,      -79,
+          -990.5,      -91,
+            -940,     -106,
+            -875,   -106.5,
+        
+          -847.5,     -140,
+          -769.5,     -152,
+            -693,     -184,
+          -660.5,   -184.5,
+          -631.5,   -193.5,
+        
+          -619.5,   -215.5,
+            -619,   -245.5,
+          -606.5,     -268,
+          -576.5,     -268,
+          -565.5,   -331.5,
+        
+          -565.5,   -399.5,
+          -554.5,   -442.5,
+          -522.5,   -442.5,
+            -522,   -484.5,
+          -575.5,     -505,
+        
+          -510.5,     -506,
+          -413.5,   -485.5,
+          -392.5,   -506.5,
+            -384,   -547.5,
+            -365,     -557,
+        
+            -348,     -538,
+          -318.5,     -539,
+          -304.5,   -550.5,
+            -285,     -540,
+          -273.5,     -507,
+        
+           -46.5,   -452.5,
+             -35,   -377.5,
+           105.5,   -358.5,
+           210.5,     -295,
+           134.5,   -281.5,
+        
+           198.5,   -260.5,
+             660,     -226,
+           681.5,   -237.5,
+           651.5,   -267.5,
+           703.5,   -259.5,
+        
+           824.5,   -248.5,
+           919.5,     -161,
+           895.5,     -136,
+            1007,     -102,
+           909.5,    -81.5,
+        
+           911.5,    -51.5,
+           918.5,    -44.5,
+           918.5,     44.5,
+           911.5,     51.5,
+           909.5,     81.5,
+        
+            1007,      102,
+           895.5,      136,
+           919.5,      161,
+           824.5,    248.5,
+           703.5,    259.5,
+        
+           651.5,    267.5,
+           681.5,    237.5,
+             660,      226,
+           198.5,    260.5,
+           134.5,    281.5,
+        
+           210.5,      295,
+           105.5,    358.5,
+             -35,    377.5,
+           -46.5,    452.5,
+          -273.5,      507,
+        
+            -285,      540,
+          -304.5,    550.5,
+          -318.5,      539,
+            -348,      538,
+            -365,      557,
+        
+            -384,    547.5,
+          -392.5,    506.5,
+          -413.5,    485.5,
+          -510.5,      506,
+          -575.5,      505,
+        
+            -522,    484.5,
+          -522.5,    442.5,
+          -554.5,    442.5,
+          -565.5,    399.5,
+          -565.5,    331.5,
+        
+          -576.5,      268,
+          -606.5,      268,
+            -619,    245.5,
+          -619.5,    215.5,
+          -631.5,    193.5,
+        
+          -660.5,    184.5,
+            -693,      184,
+          -769.5,      152,
+          -847.5,      140,
+            -875,    106.5,
+        
+            -940,      106,
+          -990.5,       91,
+            -924,       79,
+         -1005.5,     33.5
+    # 94 points total.
+    ]
+}

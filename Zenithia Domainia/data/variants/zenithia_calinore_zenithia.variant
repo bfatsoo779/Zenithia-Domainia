@@ -1,0 +1,50 @@
+{
+    "displayName": "Zenithia",
+    "fluxCapacitors": 0,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "zenithia_calinore",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "zenithia_calinore_zenithia",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "heavyburst",
+                "WS 008": "heavyburst",
+                "WS 007": "heavyburst",
+                "WS 009": "heavyburst",
+                "WS 004": "ioncannon",
+                "WS 002": "ioncannon",
+                "WS 000": "ioncannon",
+                "WS 001": "ioncannon",
+                "WS 003": "ioncannon",
+                "WS 005": "ioncannon",
+                "WS 011": "ioncannon",
+                "WS 013": "ioncannon",
+                "WS 015": "ioncannon",
+                "WS 012": "ioncannon",
+                "WS 010": "ioncannon",
+                "WS 014": "ioncannon"
+            }
+        }
+    ],
+    "modules": {
+        "WS 059": "zenithia_calinore_bow_zenithia",
+        "WS 050": "zenithia_calinore_port_midship_zenithia",
+        "WS 048": "zenithia_calinore_port_nacelle_zenithia",
+        "WS 049": "zenithia_calinore_starboard_nacelle_zenithia",
+        "WS 053": "zenithia_calinore_starboard_neck_zenithia",
+        "WS 052": "zenithia_calinore_port_neck_zenithia",
+        "WS 055": "zenithia_calinore_starboard_stern_zenithia",
+        "WS 057": "zenithia_calinore_stern_zenithia",
+        "WS 054": "zenithia_calinore_port_stern_zenithia",
+        "WS 051": "zenithia_calinore_starboard_midship_zenithia"
+    },
+    "wings": [
+        "xyphos_wing",
+        "xyphos_wing"
+    ]
+}
