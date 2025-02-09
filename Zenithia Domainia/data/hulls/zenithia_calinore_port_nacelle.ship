@@ -20,7 +20,7 @@
         "zenithia_advanced_central_computing_core",
         "distributed_fire_control",
         "zenithia_domain explorium grade hull",
-        "pointdefenseai",
+        "pointdefenseai"
     ],
     "builtInWeapons": {
         "WS 011": "zenithia_large_white_blinker",
@@ -37,8 +37,8 @@
             "size": "MEDIUM",
             "type": "HYBRID",
             "mount": "TURRET",
-            "arc": 0,
-            "angle": 0,
+            "arc": 150,
+            "angle": 35,
             "locations": [
                       97,      -90
             ]
@@ -48,8 +48,8 @@
             "size": "MEDIUM",
             "type": "HYBRID",
             "mount": "TURRET",
-            "arc": 0,
-            "angle": 0,
+            "arc": 150,
+            "angle": 145,
             "locations": [
                       11,      -90
             ]
